@@ -1,0 +1,6 @@
+1、将文件夹上传到原有仓库：
+git add src/    // src/为当前目录下的文件名，该参数也可以为文件
+git commit -m "项目注释"
+git remote add origin git@github.com:FreyaR/test.git //连接FreyaR的远程仓库test
+git remote rm origin //如果要删除远程连接，可以使用该命令
+git push -u origin master //将文件上传
